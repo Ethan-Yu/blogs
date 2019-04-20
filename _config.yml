@@ -95,3 +95,5 @@ picture:
         height: "100"
       source_default:
         width: "640"
+
+theme: jekyll-theme-cayman
