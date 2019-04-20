@@ -79,9 +79,11 @@ kramdown:
 
 pages_list:
   About: '/blogs/about/'
-  Hobby projects: '/blogs/hobbies/'
+  # hidde the projects list for moment
+  # Hobby projects: '/blogs/hobbies/'
   Tags: '/blogs/tags/'
-  Feed: '/blogs/atom.xml'
+  # hidde the Feed for moment
+  # Feed: '/blogs/atom.xml'
 
 picture:
   source: "_assets/imgs/_fullsize"
