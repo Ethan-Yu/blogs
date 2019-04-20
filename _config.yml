@@ -33,8 +33,8 @@ exclude: ["transfer.sh", README.md]
 
 # Setup
 title:               Zhenglong Yu (喻正龙)
-tagline:             Sapere aude!
-url:                 "https://ethan-yu.github.io/blogs/"
+tagline:             Move forward!
+url:                 "https://ethan-yu.github.io"
 paginate_l:           4
 baseurl:             "/blogs"
 
