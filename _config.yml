@@ -7,6 +7,9 @@ highlighter: rouge
 
 timezone: Asia/Beijing
 
+#Theme from Jekll
+theme: jekyll-theme-cayman
+
 # Default YAML frontmatter settings
 defaults:
   -
@@ -94,4 +97,3 @@ picture:
       source_default:
         width: "640"
 
-theme: jekyll-theme-cayman
