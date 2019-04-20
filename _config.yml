@@ -58,7 +58,7 @@ author:
 
 # Custom vars
 version:             1.0.0
-github:
+github:              https://github.com/Ethan-Yu/blogs
   repo:              https://github.com/Ethan-Yu/blogs.git
 
 # Google sitemap generation
