@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="{{site.baseurl}}/public/lib/leaflet/leaflet.css">
   <script src="{{site.baseurl}}/public/lib/leaflet/leaflet.js"></script>
   <script src="{{site.baseurl}}/public/lib/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js'></script>
-  <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css' rel='stylesheet' />
+  <script src='{{site.baseurl}}/public/lib/leaflet/fullscreen/Leaflet.fullscreen.min.js'></script>
+  <link href='{{site.baseurl}}/public/lib/leaflet/fullscreen/leaflet.fullscreen.css' rel='stylesheet' />
   <script src="{{site.baseurl}}/public/lib/leaflet-gpx/gpx.js"></script>
   {% endif %}
 {% if page.summary %}
@@ -30,7 +30,7 @@
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   <meta property="article:author" content="{{ site.fb_admins }}">
   {% for post in site.related_posts limit:3 %}
-    <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% endfor %}
 {% endif %}
 

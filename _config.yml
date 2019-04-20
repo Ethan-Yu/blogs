@@ -31,8 +31,6 @@ image_base:          /public/images/
 # Do not copy these file to the output directory
 exclude: ["transfer.sh", README.md]
 
-#fb_appid:           337414769782635
-
 # Setup
 title:               Zhenglong Yu (喻正龙)
 tagline:             Sapere aude!
@@ -69,7 +67,7 @@ gems:
 markdown:    kramdown
 excerpt_separator: "<!--break-->"
 
-redcarpet:
+kramdown:
   extensions: ["footnotes"]
 
 kramdown:
