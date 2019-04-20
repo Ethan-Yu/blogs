@@ -1,1 +1,5 @@
-This is a personal blog project.
+# Blog
+
+Zhenglong Yu blog. Jekyll-based.
+
+
