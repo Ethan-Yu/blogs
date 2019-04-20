@@ -5,7 +5,7 @@ permalink: "/:title/"
 
 highlighter: rouge
 
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 
 #Theme from Jekll
 theme: jekyll-theme-cayman
