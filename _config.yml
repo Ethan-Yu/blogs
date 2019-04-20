@@ -5,7 +5,7 @@ permalink: "/:title/"
 
 highlighter: rouge
 
-timezone: Europe/Helsinki
+timezone: Asia/Beijing
 
 # Default YAML frontmatter settings
 defaults:
@@ -22,7 +22,7 @@ tag_title_suffix:   ""
 
 # Facebook settings
 fb_admins:          606660677
-avatar:             "/public/images/me_hires.png"
+avatar:             "/public/images/self.jpg"
 locale:             en_US
 
 # Image settings
@@ -34,13 +34,13 @@ exclude: ["transfer.sh", README.md]
 #fb_appid:           337414769782635
 
 # Setup
-title:               Vitaly Repin
+title:               Zhenglong Yu (喻正龙)
 tagline:             Sapere aude!
-url:                 "http://blogsepin.org"
+url:                 "https://ethan-yu.github.io/blogs/"
 paginate_l:           4
 baseurl:             "/blogs"
 
-paginate_langs:      ["en", "cn", "ru"]
+paginate_langs:      ["en", "cn"]
 
 # Assets
 #
@@ -51,14 +51,14 @@ sass:
 
 # About/contact
 author:
-  name:              Vitaly Repin
-  url:               https://twitter.com/vitalyrepin
-  email:             vitaly_repin@fsfe.org
+  name:              Zhenglong Yu (喻正龙)
+  url:               https://ethan-yu.github.io/blogs/
+  email:             zhenglong.yu@outlook.com
 
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/vitalyrepin/blogsepinblog
+  repo:              https://github.com/Ethan-Yu/blogs.git
 
 # Google sitemap generation
 gems:
