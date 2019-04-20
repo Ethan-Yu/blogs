@@ -36,11 +36,11 @@ exclude: ["transfer.sh", README.md]
 # Setup
 title:               Vitaly Repin
 tagline:             Sapere aude!
-url:                 "http://vrepin.org"
+url:                 "http://blogsepin.org"
 paginate_l:           4
-baseurl:             "/vr"
+baseurl:             "/blogs"
 
-paginate_langs:      ["en", "sv", "ru"]
+paginate_langs:      ["en", "cn", "ru"]
 
 # Assets
 #
@@ -58,7 +58,7 @@ author:
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/vitalyrepin/vrepinblog
+  repo:              https://github.com/vitalyrepin/blogsepinblog
 
 # Google sitemap generation
 gems:
@@ -76,10 +76,10 @@ kramdown:
   auto_ids: true
 
 pages_list:
-  About: '/vr/about/'
-  Hobby projects: '/vr/hobbies/'
-  Tags: '/vr/tags/'
-  Feed: '/vr/atom.xml'
+  About: '/blogs/about/'
+  Hobby projects: '/blogs/hobbies/'
+  Tags: '/blogs/tags/'
+  Feed: '/blogs/atom.xml'
 
 picture:
   source: "_assets/imgs/_fullsize"
