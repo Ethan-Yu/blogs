@@ -8,7 +8,7 @@ highlighter: rouge
 timezone: Asia/Shanghai
 
 #Theme from Jekll
-theme: minima
+theme: rouge
 
 # Default YAML frontmatter settings
 defaults:
