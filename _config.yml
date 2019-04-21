@@ -8,7 +8,7 @@ highlighter: rouge
 timezone: Asia/Shanghai
 
 #Theme from Jekll
-theme: jekyll-theme-cayman
+theme: minima
 
 # Default YAML frontmatter settings
 defaults:
@@ -39,10 +39,18 @@ exclude: ["transfer.sh", README.md]
 title:               Zhenglong Yu (喻正龙)
 tagline:             Move forward!
 url:                 "https://ethan-yu.github.io"
-paginate:            4
 baseurl:             "/blogs"
+pagination:
+    enabled:         true
+    per_page:        5
+    limit:           0
+    sort_field:      "date"
+    sort_reverse:    true
+    permalink:       "/page/:num/"
+    locale:          en, cn
+    category:        "posts"
+    indexpage:       "index"
 
-paginate_langs:      ["en", "cn"]
 
 # Assets
 #
@@ -64,9 +72,7 @@ github:
   repo:              https://github.com/Ethan-Yu/blogs.git
 
 # Google sitemap generation
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
+gems: [jekyll-paginate-v2]
 
 # Conversion
 markdown:    kramdown

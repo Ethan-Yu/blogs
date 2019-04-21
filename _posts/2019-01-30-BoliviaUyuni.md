@@ -2,6 +2,8 @@
 layout: post
 title: Trip with my girl friend in Bolivia Uyuni
 comments: true
+pagination:
+    enabled: true
 lang: cn
 thumbnail: kommunalvalet2017.png
 summary: In 2019, we had a wanderful trip in Bolivia Uyuni, and see the spectable view
