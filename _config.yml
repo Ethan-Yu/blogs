@@ -12,97 +12,97 @@ theme: rouge
 
 # Default YAML frontmatter settings
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      comments: true
+    -
+        scope:
+            path:               ""
+            type:               "posts"
+        values:
+            layout:             "default"
+            comments:           true
 
 # Tagging settings
-tag_title_prefix:   "Posts tagged #"
-tag_title_suffix:   ""
+tag_title_prefix:               "Posts tagged #"
+tag_title_suffix:               ""
 
 # Facebook settings
-fb_admins:          606660677
-avatar:             "/public/images/me_newzealand.jpg"
-locale:             en_US
+fb_admins:                      606660677
+avatar:                         "/public/images/me_newzealand.jpg"
+locale:                         en_US
 
 # Image settings
-image_base:          /public/images/
+image_base:                     /public/images/
 
 # Do not copy these file to the output directory
-exclude: ["transfer.sh", README.md]
+exclude:                        ["transfer.sh", README.md]
 
 # Setup
-title:               Zhenglong Yu (喻正龙)
-tagline:             Move forward!
-url:                 "https://ethan-yu.github.io"
-baseurl:             "/blogs"
+title:                           Zhenglong Yu (喻正龙)
+tagline:                         Move forward!
+url:                             "https://ethan-yu.github.io"
+baseurl:                         "/blogs"
 pagination:
-    enabled:         true
-    per_page:        5
-    limit:           0
-    sort_field:      "date"
-    sort_reverse:    true
-    permalink:       "/page/:num/"
-    locale:          en, cn
-    indexpage:       "index"
+        enabled:                 true
+        per_page:                5
+        limit:                   0
+        sort_field:              "date"
+        sort_reverse:            true
+        permalink:               "/page/:num/"
+        locale:                  en, cn
+        indexpage:               "index"
 
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+    sass_dir:                    _sass
+    style:                       :compressed
 
 # About/contact
 author:
-  name:              Zhenglong Yu (喻正龙)
-  url:               https://ethan-yu.github.io/blogs/
-  email:             zhenglong.yu@outlook.com
+    name:                        Zhenglong Yu (喻正龙)
+    url:                         https://ethan-yu.github.io/blogs/
+    email:                       zhenglong.yu@outlook.com
 
 # Custom vars
-version:             1.0.0
-github:              
-  source:            https://github.com/Ethan-Yu/blogs
-  repo:              https://github.com/Ethan-Yu/blogs.git
+version:                         1.0.0
+github:                            
+    source:                      https://github.com/Ethan-Yu/blogs
+    repo:                        https://github.com/Ethan-Yu/blogs.git
 
 # Google sitemap generation
 gems: [jekyll-paginate-v2]
 
 # Conversion
-markdown:    kramdown
+markdown:        kramdown
 excerpt_separator: "<!--break-->"
 
 kramdown:
-  extensions: ["footnotes"]
+    extensions: ["footnotes"]
 
 kramdown:
-  auto_ids: true
+    auto_ids: true
 
 pages_list:
-  About: '/blogs/about/'
-  # hidde the projects list for moment
-  # Hobby projects: '/blogs/hobbies/'
-  Tags: '/blogs/tags/'
-  # hidde the Feed for moment
-  # Feed: '/blogs/atom.xml'
+    About: '/blogs/about/'
+    # hidde the projects list for moment
+    # Hobby projects: '/blogs/hobbies/'
+    Tags: '/blogs/tags/'
+    # hidde the Feed for moment
+    # Feed: '/blogs/atom.xml'
 
 picture:
-  source: "_assets/imgs/_fullsize"
-  output: "generated"
-  markup: "picture"
-  presets:
-    default:
-      ppi: [1, 1.5, 2]
-      source_medium:
-        media: "(min-width: 40em)"
-        width: "640"
-      source_small:
-        height: "100"
-      source_default:
-        width: "640"
+    source: "_assets/imgs/_fullsize"
+    output: "generated"
+    markup: "picture"
+    presets:
+        default:
+            ppi: [1, 1.5, 2]
+            source_medium:
+                media: "(min-width: 40em)"
+                width: "640"
+            source_small:
+                height: "100"
+            source_default:
+                width: "640"
 
