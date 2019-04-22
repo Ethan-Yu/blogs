@@ -1,6 +1,6 @@
 <div class="posts">
     <h1> {{ paginator.per_page }} </h1>
-  {% if paginator.site.posts > 0 %}
+  {% if site.posts > 0 %}
       {% for post in site.posts %}
       <article class="post">
         <h1 class="post-title">
