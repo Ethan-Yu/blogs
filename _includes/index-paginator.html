@@ -35,21 +35,21 @@
 <div class="pagination">
     {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous">
-        <a class="pagination-item older" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
             Previous
         </a>
     {% else %}
-        <span class="pagination-item older">Previous</span>
+        <span class="previous">Previous</span>
     {% endif %}
     <span class="page_number ">
         Page: {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
+    <span class="page_number ">
+        Per_Page: {{ paginator.per_page }} 
+    </span>
     {% if paginator.next_page %}
-        <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-            Next
-        </a>
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
     {% else %}
-        <span class="pagination-item newer">Next</span>
+        <span class="next ">Next</span>
     {% endif %}
 </div>
 
