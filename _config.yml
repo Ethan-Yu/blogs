@@ -50,7 +50,6 @@ pagination:
         limit:                   0
         sort_field:              "date"
         sort_reverse:            true
-        indexpage:               "index"
 
 
 # Assets
