@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: "/:title/"
+permalink: pretty
 
 highlighter: rouge
 
@@ -42,8 +42,9 @@ url:                             "https://ethan-yu.github.io"
 baseurl:                         "/blogs"
 pagination:
         enabled:                 true
-        per_page:                5
-        permalink:               "/page/:num/"
+        per_page:                2
+        title:                   " - page :num"
+        permalink:               "/:num/"
         limit:                   0
         sort_field:              "date"
         sort_reverse:            true
