@@ -40,6 +40,7 @@ title:                           Zhenglong Yu (喻正龙)
 tagline:                         Move forward!
 url:                             "https://ethan-yu.github.io"
 baseurl:                         "/blogs"
+paginate:                        5
 paginate_path:                   "/page:num/"
 pagination:
         enabled:                 true
