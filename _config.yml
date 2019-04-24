@@ -2,8 +2,17 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
+paginate_path:
+    - en/page:num
+    - cn/page:num
+paginate_filter:
+    - name: lang
+      value: "en"
+    - name: lang
+      value: "cn"
+paginator_offset: 2
 
-highlighter: rouge
+highlighter: pygments
 
 timezone: Asia/Shanghai
 
@@ -15,10 +24,9 @@ defaults:
     -
         scope:
             path:               ""
-            type:               "posts"
+            type:               posts
         values:
-            layout:             "default"
-            comments:           true
+            layout:             default
 
 # Tagging settings
 tag_title_prefix:               "Posts tagged #"
@@ -40,8 +48,6 @@ title:                           Zhenglong Yu (喻正龙)
 tagline:                         Move forward!
 url:                             "https://ethan-yu.github.io"
 baseurl:                         "/blogs"
-paginate:                        5
-paginate_path:                   "/page:num/"
 
 # pagination:
 #         enabled:                 true
@@ -73,10 +79,6 @@ github:
     repo:                        https://github.com/Ethan-Yu/blogs.git
 
 # Google sitemap generation
-gems: 
-    - jekyll-sitemap
-    - jekyll-paginate
-
 # Conversion
 markdown:        kramdown
 excerpt_separator: "<!--break-->"
