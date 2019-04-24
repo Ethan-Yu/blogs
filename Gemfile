@@ -22,7 +22,7 @@ group :jekyll_plugins do
     # gem 'jekyll-archives', '2.2.1'
     # gem 'jekyll-auto-image', '1.1.3'
     # gem 'jekyll-last-modified-at', '1.1.0'
-    gem "jekyll-paginate-v2", "2.0.0"
+    gem "jekyll-paginate"
     gem "jekyll-feed"
 end
 
