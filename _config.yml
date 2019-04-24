@@ -41,9 +41,7 @@ tagline:                         Move forward!
 url:                             "https://ethan-yu.github.io"
 baseurl:                         "/blogs"
 paginate:                        5
-paginate_l:                      5
 paginate_path:                   "/page:num/"
-paginate_langs:                  ["en", "cn"]
 
 # pagination:
 #         enabled:                 true
