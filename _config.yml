@@ -7,9 +7,9 @@ paginate_path:
     - en/page:num
     - cn/page:num
 paginate_filter:
-    - name: lang
+    - name: language
       value: "en"
-    - name: lang
+    - name: language
       value: "cn"
 paginator_offset: 2
 
@@ -74,10 +74,10 @@ author:
     email:                       zhenglong.yu@outlook.com
 
 # Custom vars
-version:                         1.0.0
 github:                            
     source:                      https://github.com/Ethan-Yu/blogs
     repo:                        https://github.com/Ethan-Yu/blogs.git
+    version:                     1.0.0
 
 # Google sitemap generation
 # Conversion
