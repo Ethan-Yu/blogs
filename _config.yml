@@ -39,7 +39,7 @@ exclude:                        ["transfer.sh", README.md]
 title:                           Zhenglong Yu (喻正龙)
 tagline:                         Move forward!
 url:                             "https://ethan-yu.github.io"
-baseurl:                         ""
+baseurl:                         "/blogs"
 paginate:                        5
 paginate_l:                      5
 paginate_path:                   "/page:num/"
