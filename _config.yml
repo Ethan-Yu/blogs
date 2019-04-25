@@ -12,17 +12,17 @@ theme: minima
 
 # Define the web URL style
 permalink: pretty
+highlighter: rouge
 
 # Configure Pagination Module
 paginate: 3
 paginate_path:
-    - en/page:num
-    - cn/page:num
-      # paginate_filter:
-      #     - name: language
-      #       value: "en"
-      #     - name: language
-      #       value: "cn"
+    - /page:num
+# paginate_filter:
+#     - name: language
+#       value: "en"
+#     - name: language
+#       value: "cn"
 paginator_offset: 2
 
 # Do not copy these file to the output directory
