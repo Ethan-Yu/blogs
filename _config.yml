@@ -11,5 +11,4 @@ github:
 markdown: kramdown
 permalink: pretty
 
-blogUrl: https://ethan-yu.github.io/blogs
 baseUrl: "/blogs"
