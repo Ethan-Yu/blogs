@@ -2,13 +2,14 @@
 author:
     name: Zhenglong Yu (喻正龙)
     email: zhenglong.yu@outlook.com
-    blogs: https://ethan-yu.github.io
 
 github:
-    repo: https://github.com/Ethan-Yu/ethan-yu.github.io.git
+    repo: https://github.com/Ethan-Yu/blogs.git
     home: https://github.com/Ethan-Yu
 
 
 markdown: kramdown
 permalink: pretty
-baseUrl: "/blog"
+
+blogUrl: https://ethan-yu.github.io/blogs
+baseUrl: "/blogs"
