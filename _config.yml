@@ -1,24 +1,32 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
+# Setup
+title:                           Zhenglong Yu (喻正龙)
+tagline:                         Move forward!
+url:                             "https://ethan-yu.github.io"
+baseurl:                         "/blogs"
+
+# Use Default Theme from Jekll
+theme: minima
+
+# Define the web URL style
 permalink: pretty
+
+# Configure Pagination Module
 paginate: 3
 paginate_path:
     - en/page:num
     - cn/page:num
-paginate_filter:
-    - name: language
-      value: "en"
-    - name: language
-      value: "cn"
+      # paginate_filter:
+      #     - name: language
+      #       value: "en"
+      #     - name: language
+      #       value: "cn"
 paginator_offset: 2
 
-highlighter: pygments
-
-timezone: Asia/Shanghai
-
-#Theme from Jekll
-theme: minima
+# Do not copy these file to the output directory
+exclude:                        ["transfer.sh", README.md]
 
 # Default YAML frontmatter settings
 defaults:
@@ -33,32 +41,8 @@ defaults:
 tag_title_prefix:               "Posts tagged #"
 tag_title_suffix:               ""
 
-# Facebook settings
-fb_admins:                      606660677
-avatar:                         "/public/images/me_newzealand.jpg"
-locale:                         en_US
-
 # Image settings
 image_base:                     /public/images/
-
-# Do not copy these file to the output directory
-exclude:                        ["transfer.sh", README.md]
-
-# Setup
-title:                           Zhenglong Yu (喻正龙)
-tagline:                         Move forward!
-url:                             "https://ethan-yu.github.io"
-baseurl:                         "/blogs"
-
-# pagination:
-#         enabled:                 true
-#         per_page:                2
-#         title:                   " - page :num"
-#         permalink:               "/:num/"
-#         limit:                   0
-#         sort_field:              "date"
-#         sort_reverse:            true
-
 
 # Assets
 #
@@ -79,9 +63,9 @@ github:
     repo:                        https://github.com/Ethan-Yu/blogs.git
     version:                     1.0.0
 
-# Google sitemap generation
 # Conversion
 markdown:        kramdown
+
 excerpt_separator: "<!--break-->"
 
 kramdown:
