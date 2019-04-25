@@ -3,15 +3,15 @@
     <head>
         <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="{{ site.baseUrl }}/css/main.css">
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/cv">CV</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a href="{{ site.baseUrl }}/">Home</a></li>
+                <li><a href="{{ site.baseUrl }}/about">About</a></li>
+                <li><a href="{{ site.baseUrl }}/cv">CV</a></li>
+                <li><a href="{{ site.baseUrl }}/blog">Blog</a></li>
             </ul>
         </nav>
         <div class="container">
@@ -22,7 +22,7 @@
         <footer>
             <ul>
                 <li><a href="mailto:{{site.author.email}}">E-Mail</a></li>
-                <li><a href="{{site.author.github}}">Git Source</a></li>
+                <li><a href="{{site.github.repo}}">Git Source</a></li>
             </ul>
         </footer>
     </body>
