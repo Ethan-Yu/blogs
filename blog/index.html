@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Hank Quinlan's Blog
+title: Zhenglong's Blog
 ---
 
-<h1>{{ page.title }}</h1>
-<ul class="posts">
-
-  {% for post in site.posts %}
-  <li>
-      <span>{{ post.date | date_to_string }}</span> : 
-      <a href="{{ site.baseUrl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="posts">
+    {% for post in site.posts %}
+    <article class="post">
+        <h1 class="post-title">
+            <a href="{{ site.baseUrl }}{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h1>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    </article>
+    {% endfor %}
+</div>
