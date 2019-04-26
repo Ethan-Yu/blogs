@@ -1,3 +1,9 @@
+markdown: kramdown
+permalink: pretty
+
+title: Zhenglong Yu (喻正龙)
+baseUrl: "/blogs"
+slogan: "KEEP FORWARD"
 
 author:
     name: Zhenglong Yu (喻正龙)
@@ -8,7 +14,3 @@ github:
     home: https://github.com/Ethan-Yu
 
 
-markdown: kramdown
-permalink: pretty
-
-baseUrl: "/blogs"
