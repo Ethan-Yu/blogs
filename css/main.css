@@ -1,9 +1,26 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (min-width: 38em) {
+    html {
+        font-size: 20px;
+    }
+}
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
