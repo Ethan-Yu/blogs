@@ -1,6 +1,12 @@
+# Setup Github Page
 markdown: kramdown
 permalink: pretty
 
+#Pagination
+paginate: 3
+paginate_path: "/blog/page:num/"
+
+#Site Properties
 title: Zhenglong Yu (喻正龙)
 baseUrl: "/blogs"
 slogan: "KEEP FORWARD"
