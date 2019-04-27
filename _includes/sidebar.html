@@ -13,10 +13,10 @@
     </div>
 
     <nav class="sidebar-nav">
-        <a class="sidebar-nav-item{% if page.url == '/blogs' %} active {% endif %}" href="{{ site.baseUrl }}">Home</a>
-        <a class="sidebar-nav-item{% if page.url == '/blogs/blog' %} active{% endif %}" href="{{ site.baseUrl }}/blog">Blog</a>
-        <a class="sidebar-nav-item{% if page.url == '/blogs/about' %} active{% endif %}" href="{{ site.baseUrl }}/about">About me</a>
-        <a class="sidebar-nav-item{% if page.url == '/blogs/atom.xml' %} active{% endif %}" href="{{ site.baseUrl }}/blog/atom.xml">Feed</a>
+        <a class="sidebar-nav-item {% if page.url == '/' %} active {% endif %}" href="{{ site.baseUrl }}">Home</a>
+        <a class="sidebar-nav-item {% if page.url == '/blog/' %} active{% endif %}" href="{{ site.baseUrl }}/blog">Blog</a>
+        <a class="sidebar-nav-item {% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseUrl }}/about">About me</a>
+        <a class="sidebar-nav-item {% if page.url == '/blog/atom.xml' %} active{% endif %}" href="{{ site.baseUrl }}/blog/atom.xml">Feed</a>
     </nav>
 
     <div class="sidebar-item">
