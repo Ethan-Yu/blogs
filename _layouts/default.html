@@ -23,6 +23,7 @@
             <div class="container content">
                 {{ content }}
             </div>
+
         </div>
         <!-- /.container -->
 
@@ -30,19 +31,16 @@
         {% include footer.html %}
 
         <!-- sidebar -->
-        <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+        <label for="sidebar-checkbox" class="sidebar-toggle" id="slidebar-checkbox"></label>
         <script>
             (function(document) {
-              var toggle = document.querySelector('.sidebar-toggle');
-              var sidebar = document.querySelector('#sidebar');
-              var checkbox = document.querySelector('#sidebar-checkbox');
-              document.addEventListener('click', function(e) {
-                var target = e.target;
-                if(!checkbox.checked ||
-                   sidebar.contains(target) ||
-                   (target === checkbox || target === toggle)) return;
-                checkbox.checked = false;
-              }, false);
+                var sidebar = document.querySelector('#sidebar');
+                var checkbox = document.querySelector('#sidebar-checkbox');
+                document.addEventListener('click', function(e) {
+                    var target = e.target;
+                    if(checkbox.checked && target === checkbox) return;
+                    checkbox.checked = true;
+                }, false);
             })(document);
         </script>
     </body>
