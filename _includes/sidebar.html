@@ -9,7 +9,7 @@
     </div>
 
     <nav class="sidebar-nav">
-        <a class="sidebar-nav-item{% if page.url != site.baseUrl %} active{% endif %}" href="{{ site.baseUrl }}">Home</a>
+        <a class="sidebar-nav-item{% if page.url == site.baseUrl %} active{% endif %}" href="{{ site.baseUrl }}">Home</a>
         <a class="sidebar-nav-item{% if page.url == site.baseUrl %} active{% endif %}" href="{{ site.baseUrl }}/blog">Blog</a>
         <a class="sidebar-nav-item{% if page.url == site.baseUrl %} active{% endif %}" href="{{ site.baseUrl }}/about">About me</a>
         <a class="sidebar-nav-item{% if page.url == site.baseUrl %} active{% endif %}" href="{{ site.baseUrl }}/blog/atom.xml">Feed</a>
