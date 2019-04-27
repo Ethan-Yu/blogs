@@ -17,15 +17,16 @@ title: Zhenglong's Blog
 </div>
 
 <div class="pagination">
-    {% if paginator.previous_page %}
-        <a class="pagination-item older" href="{{ paginator.previous_page_path | prepend: site.baseUrl }}">Previous</a>
+    {% if paginator.next_page %}
+        <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseUrl }}">Older</a>
     {% else %}
-        <span class="pagination-item older">Previous</span>
+        <span class="pagination-item older">Older</span>
     {% endif %}
 
-    {% if paginator.next_page %}
-        <a class="pagination-item newer" href="{{ paginator.next_page_path | prepend: site.baseUrl }}">Next</a>
+    {% if paginator.previous_page %}
+        <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseUrl }}">Newer</a>
     {% else %}
-        <span class="pagination-item newer">Next</span>
+        <span class="pagination-item newer">Newer</span>
     {% endif %}
+
 </div>
