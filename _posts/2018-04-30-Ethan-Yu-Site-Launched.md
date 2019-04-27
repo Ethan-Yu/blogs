@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Zhenglong Yu, Horrible Cop, Launches Site"
+highlight: true
 date: 2018-04-30
 ---
 

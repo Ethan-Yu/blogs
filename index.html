@@ -1,9 +1,25 @@
 ---
 layout: default
-title: Zhenglong Yu Blog GO
+title: Home
 ---
 
-<div class="blurb">
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<h2>Hi, I'm {{ site.author.name }}.</h2>
+
+<ul>
+    <li>You will see my lastest highlight posts here.</li>
+</ul>
+
+<div class="posts">
+    {% for post in site.posts %}
+    {% if post.highlight %}
+    <article class="post">
+        <h1 class="post-title">
+            <a href="{{ site.baseUrl }}{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h1>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    </article>
+    {% endif %}
+    {% endfor %}
+</div>
