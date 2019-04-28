@@ -12,6 +12,11 @@ baseUrl: "/blogs"
 slogan: "KEEP FORWARD"
 description: Welcome to My Blog
 
+# Disqus Information
+disqus:
+    shortname: zhenglong-yu
+    url: https://zhenglong-yu.disqus.com
+
 author:
     name: Zhenglong Yu (喻正龙)
     email: zhenglong.yu@outlook.com
