@@ -6,6 +6,7 @@ summary: Why I setup this blog?
 date: 2019-04-28
 location: Santiago, Chile
 lang: en
+comments: true
 tags: [others]
 ---
 
