@@ -13,7 +13,7 @@ Well, I think it's better to explain why I launch this blog in Github Pages.
 
 In the next month, I am moving to another business unit, from the traditional Datacenter solutions to [Huawei Cloud](https://www.huaweicloud.com), in order to get used to the new position, I need to learning something new for me and I am planing to be a full stack solution architectures. 
 
-** Not just focus on the infrastructures, but also know more about big data, AI, etc. **
+**Not just focus on the infrastructures, but also know more about big data, AI, etc.**
 
 Now I have several projects about the tranditional Datacenter solutions, for example: Storage, Server, Virtualization, etc. So I need improving the knowledge about network in Datacenter, various vertical industries.
 
@@ -31,4 +31,4 @@ First I will try to move my previous posts here, at the same time, I will make s
 
 That's all. 
 
-> Loving Sunny Cat, in Santiago Chile.
+*__Loving Sunny Cat, in Santiago Chile.__*
