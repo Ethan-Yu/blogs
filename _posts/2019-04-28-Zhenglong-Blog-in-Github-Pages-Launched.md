@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Purpose of this Github Pages Blog"
+title: "Hi, I am Starting a Blog Here"
 highlight: true
-summary: Introduce why I setup this blog? 
+summary: Why I setup this blog? 
 date: 2019-04-28
 location: Santiago, Chile
 tags: [en, others]
