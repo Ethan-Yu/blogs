@@ -5,7 +5,8 @@ highlight: true
 summary: Why I setup this blog? 
 date: 2019-04-28
 location: Santiago, Chile
-tags: [en, others]
+lang: en
+tags: [others]
 ---
 
 Well, I think it's better to explain why I launch this blog in Github Pages.
@@ -18,11 +19,11 @@ During this process, I will try to remark and share what I learn.
 
 So I really need one personal blog to show these, I will try to move the previous posts here, at the same time, I will make summary about what I am learning.
 
-###My Blog Purpose:###
+### My Blog Purpose: ###
 
 1. First, I hope these experiences can help someone needs them.
 2. Second, I will share my summary about the knowledge, maybe someone can give me better suggestions.
 3. Third, I really need the records about life and job.
 
 
-That's all. Loving Cat.
+That's all. Loving Sunny Cat.
