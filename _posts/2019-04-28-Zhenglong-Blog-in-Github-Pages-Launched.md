@@ -11,19 +11,24 @@ tags: [others]
 
 Well, I think it's better to explain why I launch this blog in Github Pages.
 
-I am moving to another job area now, from the traditional Datacenter solutions to the public area, and want to be a full stack solution architectures, not just the infrastructures or cloud infrastructures, but also to be a solution architecutures about big data, AI.
+In the next month, I am moving to another business unit, from the traditional Datacenter solutions to [Huawei Cloud](https://www.huaweicloud.com), in order to get used to the new position, I need to learning something new for me and I am planing to be a full stack solution architectures. 
 
-In order to reach that position, I have experiences about server, storage, virtualization, and I need to know more about network in Datacenter, in the future I also need to know more about the big data and AI.
+** Not just focus on the infrastructures, but also know more about big data, AI, etc. **
 
-During this process, I will try to remark and share what I learn.
+Now I have several projects about the tranditional Datacenter solutions, for example: Storage, Server, Virtualization, etc. So I need improving the knowledge about network in Datacenter, various vertical industries.
 
-So I really need one personal blog to show these, I will try to move the previous posts here, at the same time, I will make summary about what I am learning.
+During this process, I will try to share and record what I learn.
 
-### My Blog Purpose: ###
+That's the main motivation for me to setup my personal blog here.
 
-1. First, I hope these experiences can help someone needs them.
-2. Second, I will share my summary about the knowledge, maybe someone can give me better suggestions.
-3. Third, I really need the records about life and job.
+First I will try to move my previous posts here, at the same time, I will make summary about what I am learning.
+
+### Blog Purpose: ###
+
+* First, I want to recoard the life here, and hope these experiences can help someone needs them.
+* Second, Someone has similar experiences can give more feedback about these posts. 
 
 
-That's all. Loving Sunny Cat.
+That's all. 
+
+> Loving Sunny Cat, in Santiago Chile.
