@@ -29,36 +29,33 @@ Here we generate all the tags.
 {% endif %}
 {% endfor %}
 
-<h1 class="page-title">
-    <a href="{{ site.baseUrl }}/blog">Blog</a> | {{ page.title }}
+<h1 class="post-title">
+    <a href="{{ site.baseUrl }}/blog">Blog</a> | {{ post.title }}
 </h1>
-<br/>
 
-<div class="posts">
-<p>
+<hr/>
+
+<div class="tags-list">
 {% for tag in tags %}
-<a href="#{{ tag | slugify }}" class="codinfox-tag-mark"> {{ tag }} </a> &nbsp;&nbsp;
+<a href="#{{ tag | slugify }}" class="post-tag">#{{ tag }}</a> &nbsp;&nbsp;&nbsp;
 {% endfor %}
 
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-<ul class="codinfox-category-list">
+<div class="posts">
     {% for post in site.posts %}
     {% if post.tags contains tag %}
-    <li>
-        <h3>
+    <article class="post">
+        <h1 class="post-title">
             <a href="{{ site.baseUrl }}{{ post.url }}">
                 {{ post.title }}
-                <small>{{ post.date | date_to_string }}</small>
             </a>
-            {% for tag in post.tags %}
-            <a class="codinfox-tag-mark" href="{{ site.baseUrl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-            {% endfor %}
-        </h3>
-    </li>
+        </h1>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    </article>
+</div>
     {% endif %}
     {% endfor %}
-</ul>
 {% endfor %}
 
 </div>
