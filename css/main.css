@@ -1,4 +1,7 @@
-
+h1.post-title a {
+    color: #1a0dab;
+    font-size: 1.6rem;
+}
 .tag-list, .post-title-date {
     font-size: 0.9rem;
     color: #9a9a9a;
