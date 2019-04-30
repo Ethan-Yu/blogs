@@ -13,6 +13,10 @@
     text-decoration: underline;
 }
 
+.masthead-title small {
+    font-size: 60%;
+}
+
 .post-tag {
     display: inline-block;
     background: rgba(106,159,181,0.15);
