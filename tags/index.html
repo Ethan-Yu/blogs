@@ -37,7 +37,7 @@ Here we generate all the tags.
 
 <div class="tags-list">
 {% for tag in tags %}
-<i class="fa fa-tag" aria-hidden="true"></i><a href="{{ tag | slugify }}" class="post-tag">{{ tag }}</a> &nbsp;&nbsp;
+<a href="{{ tag | slugify }}" class="post-tag"><i class="fa fa-tag" aria-hidden="true"></i>{{ tag }}</a> &nbsp;&nbsp;
 {% endfor %}
 
 {% for tag in tags %}
