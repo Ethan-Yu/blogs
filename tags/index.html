@@ -29,7 +29,7 @@ Here we generate all the tags.
 {% endif %}
 {% endfor %}
 
-<h1 class="post-title">
+<h1 class="tag-title">
     <a href="{{ site.baseUrl }}/blog">Blog</a> &nbsp;|&nbsp; {{ page.title }}
 </h1>
 
@@ -50,7 +50,7 @@ Here we generate all the tags.
             <a href="{{ site.baseUrl }}{{ post.url }}">
                 {{ post.title }}
             </a>
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="tag-post-date">{{ post.date | date_to_string }}</time>
+            &nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" class="tag-post-date">{{ post.date | date_to_string }}</time>
         </h1>
     </article>
 </div>
