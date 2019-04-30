@@ -5,8 +5,12 @@
 }
 
 .tag-title a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+.tag-title a:hover {
     text-decoration: underline;
-    #268bd2;
 }
 
 .post-tag {
