@@ -50,8 +50,8 @@ Here we generate all the tags.
             <a href="{{ site.baseUrl }}{{ post.url }}">
                 {{ post.title }}
             </a>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="tag-post-date">{{ post.date | date_to_string }}</time>
         </h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
     </article>
 </div>
     {% endif %}
