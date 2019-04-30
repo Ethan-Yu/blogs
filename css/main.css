@@ -1,5 +1,5 @@
 
-.tag-list, .tag-post-date {
+.tag-list, .post-title-date {
     font-size: 0.9rem;
     color: #9a9a9a;
 }
@@ -11,6 +11,12 @@
 
 .tag-title a:hover {
     text-decoration: underline;
+}
+
+.tag-title a:before {
+    content: "\f02b";
+    font-family: FontAwesome;
+    padding-right: .5em;
 }
 
 .masthead-title small {

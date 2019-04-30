@@ -14,7 +14,7 @@ title: Home
                 {{ post.title }}
             </a>
         </h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+        &nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" class="post-title-date">{{ post.date | date_to_string }}</time>
     </article>
     {% endif %}
     {% endfor %}
