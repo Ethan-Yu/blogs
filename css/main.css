@@ -13,12 +13,6 @@
     text-decoration: underline;
 }
 
-.tag-title a:before {
-    content: "\f02b";
-    font-family: FontAwesome;
-    padding-right: .5em;
-}
-
 .masthead-title small {
     font-size: 60%;
 }
@@ -35,4 +29,10 @@
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+}
+
+.post-tag:before {
+    content: "\f02b";
+    font-family: FontAwesome;
+    padding-right: .5em;
 }

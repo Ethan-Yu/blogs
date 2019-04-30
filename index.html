@@ -13,8 +13,8 @@ title: Home
             <a href="{{ site.baseUrl }}{{ post.url }}">
                 {{ post.title }}
             </a>
+            &nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" class="post-title-date">{{ post.date | date_to_string }}</time>
         </h1>
-        &nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}" class="post-title-date">{{ post.date | date_to_string }}</time>
     </article>
     {% endif %}
     {% endfor %}
