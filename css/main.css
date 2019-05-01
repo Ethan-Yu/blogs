@@ -34,8 +34,6 @@ h1.post-title a {
     transition: all 0.1s ease-in-out;
 }
 
-.post-tag:before {
-    content: "\f02b";
-    font-family: FontAwesome;
+.icon-text-tag-left {
     padding-right: .5em;
 }

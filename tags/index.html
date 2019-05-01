@@ -30,15 +30,19 @@ Here we generate all the tags.
 {% endfor %}
 
 <h1 class="tag-title">
-    <a href="{{ site.baseUrl }}/blog">Blog</a> &nbsp;|&nbsp; {{ page.title }}
+    <a href="{{ site.baseUrl }}/blog">
+        <i class="fa fa-tags icon-text-tag-left" aria-hidden="true"></i>Blog
+    </a> &nbsp;|&nbsp; {{ page.title }}
 </h1>
-
-<hr/>
 
 <div class="tags-list">
 {% for tag in tags %}
-<a href="#{{ tag | slugify }}" class="post-tag">{{ tag }}</a> &nbsp;&nbsp;
+<a href="#{{ tag | slugify }}" class="post-tag">
+    <i class="fa fa-tag icon-text-tag-left" aria-hidden="true"></i>{{ tag }}
+</a> &nbsp;&nbsp;
 {% endfor %}
+
+<hr/>
 
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
