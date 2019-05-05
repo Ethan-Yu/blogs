@@ -58,6 +58,7 @@ SATA was announced in 2000 in order to replace the early PATA interface, and pro
 1. More efficient transfer rate through an (optional) I/O queuing protocol.
 
 Now the most popular SATA revision is 3.0, the following table will show the comparison result:
+
 Protocol Name | Version | RAW Data Rate 
 --------------|--------------|--------------
 ATA | 133 | 1.064Gbit/s  
