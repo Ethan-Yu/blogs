@@ -54,16 +54,16 @@ _Parallel ATA cable_
 SATA was announced in 2000 in order to replace the early PATA interface, and provides the advantanges as the followings:
 1. Reduce cable size and cost (seven conductors instead of 40 or 80).
 1. Native hot swapping.
-1. Faster data transfer. _PATA maximum can support 1.064 Gbit/s, while SATA revision 1.0 supports 1.5Gbit/s_
+1. Faster data transfer. _PATA maximum can support 1.064  Gbit/s, while SATA revision 1.0 supports 1.5 Gbit/s_
 1. More efficient transfer rate through an (optional) I/O queuing protocol. _Half Duplex_
 
 Now the most popular SATA revision is 3.0, the following table will show the comparison result:
 
 Protocol Name | Version | RAW Data Rate 
 ------------- | ------- | -------------
-ATA | 133 | 1.064Gbit/s  
-SATA | 1.0 | 1.5Gbit/s
-SATA | 3.0 | 6Gbit/s
+ATA | 133 | 1.064 Gbit/s  
+SATA | 1.0 | 1.5 Gbit/s
+SATA | 3.0 | 6 Gbit/s
 
 At the same time, SATA will bring more benefits, for exmple longer cable length support, simple cabling, etc. 
 
@@ -84,11 +84,12 @@ In computeing world, Serial Attached SCSI(SAS) is a point to point connection (s
 
 SAS can support to control up to 16,384 devices from a single HBA by using external expanders, and works in a __Full-Duplex__ Model.
 
-Today SAS 3.0 interface can support 12Gbit/s connection, and SAS interface is compatible with SATA, so you can connect one SATA disk to SAS interface, __but you CANNOT connect the SATA disk to SAS interface.__
+Today SAS 3.0 interface can support 12 Gbit/s connection, and SAS interface is compatible with SATA, so you can connect one SATA disk to SAS interface, __but you CANNOT connect the SATA disk to SAS interface.__
 
-### 5. Other: Nearline SAS
+### 5. Addtional Protocol: Nearline SAS
 NL-SAS (abbreviated from Nearline SAS) drives have the SAS interface, but head, media, and rotational speed of traditional enterprise-class SATA drives, so they cost less than other SAS drives. When compared to SATA, NL-SAS drives have the following benefits:
 
+1. 12 Gbit/s interface data transfer rate
 1. Dual ports allowing redundant paths
 1. Ability to connect a device to multiple computers
 1. Full SCSI command set
