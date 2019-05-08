@@ -23,7 +23,7 @@ So I am trying to make a summary about storage history, try to help them to unde
 _For the very details each protocol details, I will give one suggestion link_
 
 ## Summary
-In 1980s, ATA and SCSI is popular in the computer world, because 
+In 1980s, ATA and SCSI is popular in the computer world, both of them are parallel interface, but the data transfer speed and mode have several limitations, then the computer world storage interface upgrade to serial interface, which are SATA, SAS and NL-SAS.
 
 ## Storage Protocols : From ATA to SATA and SCSI to SAS
 This is the first post to introduce storage protocols, and these are lots of storage protocols, it's very difficult to introduce them all in one post, so I just introduce ATA -> SATA and SCSI -> SAS in this post. 
