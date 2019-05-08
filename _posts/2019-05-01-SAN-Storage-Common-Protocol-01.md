@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Common Storage Protocols: ATA evolved to SATA, and SCSI -> SAS"
+title: "Common Storage Protocols 01: ATA, SATA , SCSI, SAS and NL-SAS"
 highlight: true
-summary: Introduce the background about storage protocols, focus on ATA to SATA and SCSI to SAS
+summary: Introduce the background about storage protocols, relationship between ATA, SATA, SCSI, SAS and NL-SAS
 date: 2019-05-01
 lang: en
 location: Santiago, Chile
@@ -21,6 +21,9 @@ So I am trying to make a summary about storage history, try to help them to unde
 * What problem these protocols solve?
 
 _For the very details each protocol details, I will give one suggestion link_
+
+## Summary
+In 1980s, ATA and SCSI is popular in the computer world, because 
 
 ## Storage Protocols : From ATA to SATA and SCSI to SAS
 This is the first post to introduce storage protocols, and these are lots of storage protocols, it's very difficult to introduce them all in one post, so I just introduce ATA -> SATA and SCSI -> SAS in this post. 
