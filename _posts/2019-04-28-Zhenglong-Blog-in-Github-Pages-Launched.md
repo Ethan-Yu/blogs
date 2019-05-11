@@ -10,15 +10,17 @@ comments: true
 tags: [others]
 ---
 
-Well, I think it's better to explain why I launch this blog in Github Pages.
+Well, I think it's better to start the first blog to explain the reason I launch this blog in Github Pages.
 
-In the next month, I am moving to another business unit, from the traditional Datacenter solutions to [Huawei Cloud](https://www.huaweicloud.com), in order to get used to the new position, I need to learning something new for me and I am planing to be a full stack solution architectures. 
+In the next month, I am moving to another business unit, from the traditional Datacenter solutions to [Huawei Cloud](https://www.huaweicloud.com). 
 
-**Not just focus on the infrastructures, but also learn more about Applications, Big Data and AI, etc.**
+In order to face the challenges in the new position, and I wish I could be a solution architectures. Now I will make a summary about the work experiences during the past several years, and also remark some interesting technology here. 
 
-Now I have several projects about the tranditional Datacenter solutions, for example: Storage, Server, Virtualization, etc. So I need improving the knowledge about network in Datacenter, various vertical industries.
+**Not just focus on the infrastructures, but also learn more about Applications and Business.**
 
-During this process, I will try to share and record what I learn.
+During the past 4 years, I have several projects about the tranditional Datacenter solutions, for example: Storage, Server, Virtualization, etc.
+
+Now I need to know more about network, security, Cloud, etc.  During this process, I will try to share and record what I learn.
 
 That's the main motivation for me to setup my personal blog here.
 
@@ -26,8 +28,8 @@ First I will try to move my previous posts here, at the same time, I will make s
 
 ### Blog Purpose: ###
 
-* First, I want to recoard the life here, and hope these experiences can help someone needs them.
-* Second, Someone has similar experiences can give more feedback about these posts. 
+* First, I want to record the life here, and hope these experiences can help someone needs them.
+* Second, Someone has similar experiences can give some useful suggestions.
 
 
 That's all. 
