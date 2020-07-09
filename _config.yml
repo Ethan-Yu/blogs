@@ -8,9 +8,12 @@ paginate_path: "/blog/page:num/"
 
 #Site Properties
 title: Zhenglong Yu (喻正龙)
+blog: 博客
+tags: 标签
+aboutme: 关于我
 baseUrl: "/blogs"
 slogan: "KEEP FORWARD"
-description: Welcome to My Blog
+description: 欢迎到来我的博客
 
 # Disqus Information
 disqus:
@@ -19,7 +22,7 @@ disqus:
 
 author:
     name: Zhenglong Yu (喻正龙)
-    email: zhenglong.yu@outlook.com
+    email: zhenglong.yu@qq.com
     corpUrl: https://e.huawei.com
     corpName: Huawei Technologies Co., Ltd.
 
