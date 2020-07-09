@@ -9,7 +9,7 @@ paginate_path: "/blog/page:num/"
 #Site Properties
 title: Zhenglong Yu (喻正龙)
 blog: 博客
-tags: 标签
+title_tags: 标签
 aboutme: 关于我
 baseUrl: "/blogs"
 slogan: "KEEP FORWARD"
