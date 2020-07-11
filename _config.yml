@@ -8,11 +8,12 @@ paginate_path: "/blog/page:num/"
 
 #Site Properties
 title: Zhenglong Yu (喻正龙)
+home_page: 主页
 blog: 博客
 title_tags: 标签
 aboutme: 关于我
 baseUrl: "/blogs"
-slogan: "KEEP FORWARD"
+slogan: "吾将求索而上下"
 description: 欢迎到来我的博客
 
 # Disqus Information

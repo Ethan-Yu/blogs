@@ -9,10 +9,10 @@
     </div>
 
     <nav class="sidebar-nav">
-        <a class="sidebar-nav-item {% if page.url == '/' %} active {% endif %}" href="{{ site.baseUrl }}">Home</a>
-        <a class="sidebar-nav-item {% if page.url == '/blog/' %} active{% endif %}" href="{{ site.baseUrl }}/blog">Blog</a>
-        <a class="sidebar-nav-item {% if page.url == '/tags/' %} active{% endif %}" href="{{ site.baseUrl }}/tags">Tags</a>
-        <a class="sidebar-nav-item {% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseUrl }}/about">About me</a>
+        <a class="sidebar-nav-item {% if page.url == '/' %} active {% endif %}" href="{{ site.baseUrl }}">{ site.home_page }</a>
+        <a class="sidebar-nav-item {% if page.url == '/blog/' %} active{% endif %}" href="{{ site.baseUrl }}/blog">{ site.blog }</a>
+        <a class="sidebar-nav-item {% if page.url == '/tags/' %} active{% endif %}" href="{{ site.baseUrl }}/tags">{ site.title_tags }</a>
+        <a class="sidebar-nav-item {% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseUrl }}/about">{ site.aboutme }</a>
         <a class="sidebar-nav-item {% if page.url == '/blog/atom.xml' %} active{% endif %}" href="{{ site.baseUrl }}/blog/atom.xml">Feed</a>
     </nav>
 
